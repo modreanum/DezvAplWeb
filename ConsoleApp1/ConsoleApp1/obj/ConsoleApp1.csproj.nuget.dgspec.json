@@ -4,6 +4,21 @@
     "C:\\Users\\Administrator\\Documents\\GitHub\\DezvAplWeb\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\DezvAplWeb\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\DezvAplWeb\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\DezvAplWeb\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Users\\Administrator\\Documents\\GitHub\\DezvAplWeb\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +47,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Administrator\\Documents\\GitHub\\DezvAplWeb\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\DezvAplWeb\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

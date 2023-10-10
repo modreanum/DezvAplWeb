@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class Class1
+    public class JobTitle
     {
+        public string JobName { get; set; }
+        public string Duration { get; set; }
     }
 }
